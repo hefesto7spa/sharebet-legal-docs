@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Documentos Legales - ShareBet</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            line-height: 1.6;
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+            color: #333;
+            background-color: #f8f9fa;
+        }
+        .container {
+            background: white;
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #2c3e50;
+            font-size: 2.5em;
+            text-align: center;
+            margin-bottom: 1em;
+            border-bottom: 3px solid #3498db;
+            padding-bottom: 20px;
+        }
+        .logo {
+            text-align: center;
+            margin-bottom: 2em;
+        }
+        .logo h2 {
+            color: #3498db;
+            font-size: 2em;
+            margin: 0;
+            font-weight: 300;
+        }
+        .subtitle {
+            text-align: center;
+            color: #666;
+            font-size: 1.1em;
+            margin-bottom: 3em;
+        }
+        .documents-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 25px;
+            margin: 2em 0;
+        }
+        .document-card {
+            background: #f8f9fa;
+            border: 2px solid #e9ecef;
+            border-radius: 8px;
+            padding: 25px;
+            text-decoration: none;
+            color: inherit;
+            transition: all 0.3s ease;
+            position: relative;
+            overflow: hidden;
+        }
+        .document-card:hover {
+            border-color: #3498db;
+            transform: translateY(-2px);
+            box-shadow: 0 8px 25px rgba(52, 152, 219, 0.15);
+            text-decoration: none;
+            color: inherit;
+        }
+        .document-card h3 {
+            color: #2c3e50;
+            margin-top: 0;
+            margin-bottom: 15px;
+            font-size: 1.3em;
+        }
+        .document-card p {
+            color: #666;
+            margin-bottom: 15px;
+            line-height: 1.5;
+        }
+        .document-card .icon {
+            font-size: 2.5em;
+            margin-bottom: 15px;
+            display: block;
+        }
+        .card-privacy { border-left: 5px solid #e74c3c; }
+        .card-terms { border-left: 5px solid #f39c12; }
+        .card-community { border-left: 5px solid #27ae60; }
+
+        .card-privacy .icon { color: #e74c3c; }
+        .card-terms .icon { color: #f39c12; }
+        .card-community .icon { color: #27ae60; }
+
+        .last-updated {
+            background: #e8f5e8;
+            padding: 15px;
+            border-radius: 8px;
+            margin: 2em 0;
+            text-align: center;
+        }
+        .footer {
+            text-align: center;
+            margin-top: 3em;
+            padding-top: 2em;
+            border-top: 1px solid #eee;
+            color: #666;
+        }
+        .footer a {
+            color: #3498db;
+            text-decoration: none;
+        }
+        .footer a:hover {
+            text-decoration: underline;
+        }
+        @media (max-width: 768px) {
+            .container { padding: 20px; }
+            h1 { font-size: 2em; }
+            .documents-grid { grid-template-columns: 1fr; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="logo">
+            <h2>ShareBet</h2>
+        </div>
+
+        <h1>Documentos Legales</h1>
+
+        <div class="subtitle">
+            Transparencia y confianza en nuestra plataforma social de predicciones deportivas
+        </div>
+
+        <div class="last-updated">
+            <strong>📅 Última actualización:</strong> 28 de septiembre de 2025
+        </div>
+
+        <div class="documents-grid">
+            <a href="privacy-policy.html" class="document-card card-privacy">
+                <span class="icon">🛡️</span>
+                <h3>Política de Privacidad</h3>
+                <p>Descubre cómo protegemos y utilizamos tu información personal en ShareBet. Información detallada sobre recopilación de datos, uso, seguridad y tus derechos.</p>
+                <small><strong>Incluye:</strong> Protección de datos, sistema de propinas, interacciones sociales</small>
+            </a>
+
+            <a href="terms-of-service.html" class="document-card card-terms">
+                <span class="icon">📋</span>
+                <h3>Términos de Servicio</h3>
+                <p>Conoce las reglas y condiciones para usar ShareBet de manera segura y responsable. Derechos, responsabilidades y uso aceptable de la plataforma.</p>
+                <small><strong>Incluye:</strong> Uso aceptable, sistema de propinas, propiedad intelectual</small>
+            </a>
+
+            <a href="community-guidelines.html" class="document-card card-community">
+                <span class="icon">🤝</span>
+                <h3>Normas de la Comunidad</h3>
+                <p>Construyamos juntos una comunidad positiva y respetuosa. Guías para interacciones saludables, contenido apropiado y convivencia deportiva.</p>
+                <small><strong>Incluye:</strong> Conducta esperada, moderación, reconocimientos</small>
+            </a>
+        </div>
+
+        <div class="footer">
+            <p><strong>ShareBet</strong> - Plataforma social de predicciones deportivas</p>
+            <p>
+                📧 Contacto legal: <a href="mailto:legal@sharebet.app">legal@sharebet.app</a> |
+                💬 Soporte: <a href="mailto:support@sharebet.app">support@sharebet.app</a>
+            </p>
+            <p><small>
+                Estos documentos se actualizan periódicamente.
+                Te notificaremos sobre cambios significativos a través de la aplicación.
+            </small></p>
+        </div>
+    </div>
+</body>
+</html>

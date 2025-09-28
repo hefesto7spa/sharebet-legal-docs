@@ -1,0 +1,55 @@
+# GitHub Pages Configuration for ShareBet Legal Documents
+
+# Site settings
+title: "ShareBet - Documentos Legales"
+description: "Documentos legales oficiales de ShareBet: Política de Privacidad, Términos de Servicio y Normas de la Comunidad"
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://hefesto7spa.github.io/sharebet-legal-docs" # the base hostname & protocol for your site
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+
+# GitHub Pages specific settings
+github:
+  repository_name: sharebet-legal-docs
+  owner_name: hefesto7spa
+
+# Exclude from processing
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+
+# Include files
+include:
+  - _pages
+
+# Plugins
+plugins:
+  - jekyll-sitemap
+  - jekyll-feed
+
+# SEO settings
+lang: es
+author: ShareBet Team
+
+# Social media and contact
+email: legal@sharebet.app
+twitter_username: sharebet_app
+github_username: hefesto7spa
+
+# Default layout for pages
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
+      lang: es
