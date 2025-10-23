@@ -32,16 +32,15 @@ Los documentos están disponibles en:
 
 ## 🔄 Actualizaciones
 
-- **Última actualización:** 28 de septiembre de 2025
+- **Última actualización:** 23 de octubre de 2025
 - Los usuarios son notificados de cambios significativos a través de la aplicación
 - El historial de cambios se mantiene en los commits de este repositorio
 
 ## 📧 Contacto Legal
 
-- **Email general:** legal@sharebet.app
-- **Privacidad:** privacy@sharebet.app
-- **Soporte:** support@sharebet.app
-- **Apelaciones:** appeals@sharebet.app
+- **Email único de soporte:** support@sharebet.app
+- **Razón Social:** HEFESTO LABS SpA
+- **RUT:** 78.277.227-9
 
 ## 🛠️ Configuración GitHub Pages
 
